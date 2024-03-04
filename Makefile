@@ -1,7 +1,7 @@
 CC = gcc
 FLAGS = -Wall -Wextra -Werror -lm -g
 SRC_FOLDER= src
-FILES = $(SRC_FOLDER)/stack.c $(SRC_FOLDER)/main.c
+FILES = $(SRC_FOLDER)/main.c
 OUTPUT_FOLDER = ./build
 
 all:
